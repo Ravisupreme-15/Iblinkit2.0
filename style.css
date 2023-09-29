@@ -6,6 +6,10 @@
 
 }
 
+nav{
+    background-color: white;
+}
+
 .nav-delivery>h5{
 
     margin-top: 10px;
@@ -64,5 +68,81 @@ nav{
     padding-inline:6.5vw;
 
     justify-content: space-around;
+
+}
+
+
+/* .my-para{
+
+    white-space:nowrap;
+} */
+
+
+.scroll-container{
+
+    width: 85vw;
+    margin: auto;
+
+     
+}
+
+.list{
+
+    white-space:nowrap;
+    overflow-x: scroll;
+    
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.list>img{
+
+    display: inline-block;
+    margin: 10px;
+}
+
+.category{
+
+    width: 85vw;
+    margin: auto;
+}
+
+.my-card{
+
+    width: 220px;
+    box-sizing: border-box;
+    border-radius: 15px !important;
+
+    /* overflow: hidden;  */
+    white-space:wrap; 
+    /* text-overflow: ellipsis; */
+   
+
+}
+
+.my-card>img{
+    display: inline-block;
+    margin: auto;
+}
+
+
+.time
+{
+ 
+    background-color: #f2f2f2;
+    font-weight: 700;
+    font-size: 9px;
+    color: rgb(54, 54, 54);
+    width:fit-content;
+    padding:3px;
+    border-radius: 5px;
+
+}
+
+.product-weight{
+
+   font-size:13px;
 
 }

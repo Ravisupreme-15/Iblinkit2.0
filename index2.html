@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+
+
+
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+  />
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+
+     <button class="btn-theme" onclick="toggleDarkMode()"> <div class="mode-change"><i class="fa-solid fa-lightbulb"></i></div></button>
+     
+
+      <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
+
+       <div class="my-categories">
+        <div class="my-categories-row">
+            <div class="my-list p-3">
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/10491a.jpg?ts=1688463545"
+                        alt="Nestle Milkmaid Sweetened Condensed Milk" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Nestle Milkmaid</div>
+                    <div class="my-card-weight pt-3 w-100">380 g</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹144</span><br></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/24194a.jpg?ts=1690806087"
+                        alt="Harvest Gold Hearty Brown Bread" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Harvest Gold Hearty</div>
+                    <div class="my-card-weight pt-3 w-100">400 g</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹45</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/168a.jpg?ts=1689327537"
+                        alt="Amul Pure Milk Cheese Slices" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Amul Pure Milk Cheese</div>
+                    <div class="my-card-weight pt-3 w-100">200 g</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹132</span><br></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/487729a.jpg?ts=1687333800"
+                        alt="Table White Eggs (6 pieces)" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Table White Eggs</div>
+                    <div class="my-card-weight pt-3 w-100">6 Pieces</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹52</span><br></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/86446a.jpg?ts=1687948913"
+                        alt="Mother Dairy Classic Curd" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Mother Dairy Classic</div>
+                    <div class="my-card-weight pt-3 w-100">400 g</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹34</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/192a.jpg?ts=1689327538"
+                        alt="Mother Dairy Paneer" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Mother Diary Paneer</div>
+                    <div class="my-card-weight pt-3 w-100">200 g</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹95</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/160a.jpg?ts=1689327537"
+                        alt="Amul Salted Butter" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Amul Slated Butter</div>
+                    <div class="my-card-weight pt-3 w-100">500 g</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹275</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/23779a.jpg?ts=1690808192"
+                        alt="Harvest Gold - White Bread" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Harvest Gold - White</div>
+                    <div class="my-card-weight pt-3 w-100">350 g</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹25</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/448096a.jpg?ts=1683810912"
+                        alt="Harvest Gold 100% Atta Whole Wheat Bread" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Harvest Gold 100% Atta</div>
+                    <div class="my-card-weight pt-3 w-100">450 g</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹50</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/45533a.jpg?ts=1687948907"
+                        alt="Amul Masti Curd" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Amul Masti Curd</div>
+                    <div class="my-card-weight pt-3 w-100">400 g</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹34</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/170a.jpg?ts=1689327537"
+                        alt="Amul Cheese Cubes" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Amul Cheese Cubes</div>
+                    <div class="my-card-weight pt-3 w-100">200 g</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹125</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+       </div>
+
+
+       <div class="my-categories">
+        <div class="my-list d-flex my-categories-row">
+            <div class="my-list p-3">
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/496996a.jpg?ts=1690814374"
+                        alt="Brown Rolling Paper Cones - Stash Pro" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Brown Rolling Paper</div>
+                    <div class="my-card-weight pt-3 w-100">6 Pieces</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹90</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/496994a.jpg?ts=1690814628"
+                        alt="Brown Rolling Paper + Roach with Crushing Tray - Stash Pro" width="140" height="140"
+                        loading="lazy" style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Brown Rolling Paper</div>
+                    <div class="my-card-weight pt-3 w-100">1 Pack</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹222</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/477311a.jpg?ts=1692701354"
+                        alt="Brown Rolling Paper (King Size) - Stash Pro" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Nestle Milkmaid</div>
+                    <div class="my-card-weight pt-3 w-100">1 Pack (32 + 32 Pieces)</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹299</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/480939a.jpg?ts=1690808674"
+                        alt="White Single Wide Rolling Paper - Elements" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">White Single Wide</div>
+                    <div class="my-card-weight pt-3 w-100">1 Pack (60 Pieces)</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹149</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/490161a.jpg?ts=1690813701"
+                        alt="American Spirit Blue Cut Tobacco" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">American Sprite Blue Cut</div>
+                    <div class="my-card-weight pt-3 w-100">30 g</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹950</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/490165a.jpg?ts=1690816003"
+                        alt="Golden Virginia Cut Tobacco" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>11 MINS</div>
+                    <div class="my-card-title">Golden Virgina Cut</div>
+                    <div class="my-card-weight pt-3 w-100">30 g</div>
+                    <div class="d-flex justify-content-between  align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹1092</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/490164a.jpg?ts=1690812274"
+                        alt="Drum Original Cut Tobacco" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>11 MINS</div>
+                    <div class="my-card-title">Drum Original Cut Tobacco</div>
+                    <div class="my-card-weight pt-3 w-100">50 g</div>
+                    <div class="d-flex justify-content-between  align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹1092</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+       </div>
+
+
+
+       <div class="my-categories">
+        <div class="my-list d-flex my-categories-row">
+            <div class="my-list p-3">
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/605a.jpg?ts=1689327547"
+                        alt="Haldiram's Classic Salted Peanut Namkeen" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Haldiram's Classic Salted</div>
+                    <div class="my-card-weight pt-3 w-100">200 g</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹54</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <!-- <div class="card p-3 shadow d-flex my-card flex-column align-items-center"> -->
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/25678a.jpg?ts=1688625394"
+                        alt="Haldiram's Punjabi Masala Papad" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Haldiram's Punjabi Masala</div>
+                    <div class="my-card-weight pt-3 w-100">200 g</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹58</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/54056a.jpg?ts=1687525097"
+                        alt="Act II Golden Sizzle Popcorn (Pressure Cooker)" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Act ll Golden Sizzle</div>
+                    <div class="my-card-weight pt-3 w-100">30 g</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹10</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/608a.jpg?ts=1689327547"
+                        alt="Haldiram's Punjabi Tadka Namkeen" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Haldiram's Punjabi Tadka</div>
+                    <div class="my-card-weight pt-3 w-100">220 g</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹54</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/432818a.jpg?ts=1688444559"
+                        alt="Doritos Cheese Nachos" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Lay's India's Magic Masala</div>
+                    <div class="my-card-weight pt-3 w-100">40 g</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹20</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/240092a.jpg?ts=1687324818"
+                        alt="Lay's India's Magic Masala Chips (40 g)" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Haldiram's Lite Mixture</div>
+                    <div class="my-card-weight pt-3 w-100">150 g</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹35</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/19251a.jpg?ts=1687948393"
+                        alt="Haldiram's Lite Mixture Namkeen" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Doritos Cheese Nachos</div>
+                    <div class="my-card-weight pt-3 w-100">60 g</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹30</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/15558a.jpg?ts=1690814371"
+                        alt="Lijjat Moong Papad" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Lijjat Moong Dal</div>
+                    <div class="my-card-weight pt-3 w-100">200 g</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹72</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/623a.jpg?ts=1689327547"
+                        alt="Haldiram's Plain Bhujia" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Haldiram's Plain Bhujia</div>
+                    <div class="my-card-weight pt-3 w-100">200 g</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹56</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+       </div>
+
+       <div class="my-categories">
+       
+        <div class="my-list d-flex my-categories-row">
+            <div class="my-list p-3">
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/33216a.jpg?ts=1692431685"
+                        alt="B Natural Mixed Fruit Juice" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">B Natural Mixed Fruit</div>
+                    <div class="my-card-weight pt-3 w-100">1 l</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹85</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/277a.jpg?ts=1689327540"
+                        alt="Hamdard Rooh Afza Rose Sharbat" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Hamdard Rooh Afza Rose</div>
+                    <div class="my-card-weight pt-3 w-100">750 ml</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹170</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/385a.jpg?ts=1689327544"
+                        alt="Red Bull Energy Drink (250 ml)" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Red Bull Energy Drink</div>
+                    <div class="my-card-weight pt-3 w-100">250 ml</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹125</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/427007a.jpg?ts=1687948989"
+                        alt="Maaza Mango Drink - Pack of 10" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Mazza Mango Drink</div>
+                    <div class="my-card-weight pt-3 w-100">10 x 150 ml</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹80</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/359a.jpg?ts=1679035808"
+                        alt="Real Activ Fibre+ Multi Fruit Juice" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Real Active Fiber</div>
+                    <div class="my-card-weight pt-3 w-100">1 l</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹112</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/10554a.jpg?ts=1690815271"
+                        alt="Catch Club Soda Water" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Bisleri Packaged Water</div>
+                    <div class="my-card-weight pt-3 w-100">5 l</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹50</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/283a.jpg?ts=1689327540"
+                        alt="Coca-Cola Soft Drink (750 ml)" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Catch Club Soda Water</div>
+                    <div class="my-card-weight pt-3 w-100">750 ml</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹25</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/358a.jpg?ts=1679035808"
+                        alt="Real Activ 100% Apple Juice" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Real Activ 100% Apple</div>
+                    <div class="my-card-weight pt-3 w-100">1 l</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹106</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/97250a.jpg?ts=1688628274"
+                        alt="Maaza Mango Drink 1.2 l" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Maaza Mango Drink 1.2 l</div>
+                    <div class="my-card-weight pt-3 w-100">71.2 l</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹74</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Candies and Gums section -->
+
+    <div class="my-categories">
+       
+        <div class="my-list d-flex my-categories-row">
+            <div class="my-list p-3">
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/163972a.jpg?ts=1690813224"
+                        alt="Impact Sugar Free Mint Candy (Peach)" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Impact Sugar Free Mint</div>
+                    <div class="my-card-weight pt-3 w-100">14 q</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹118</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/363212a.jpg?ts=1690814160"
+                        alt="Impact Sugar Free Mint Candy (Ice Mints)" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Impact Sugar Free Mint</div>
+                    <div class="my-card-weight pt-3 w-100">14 q</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹118</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/440073a.jpg?ts=1691835531"
+                        alt="Orbit Mixed Fruit Flavour Chewing Gum (Sugar Free)" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Impact Sugar Free Mint</div>
+                    <div class="my-card-weight pt-3 w-100">14 q</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹118</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/481313a.jpg?ts=1687333270"
+                        alt="Nicotex Mint Nicotine Gum (Sugar Free)" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Orbit Mixed Fruit Flavour</div>
+                    <div class="my-card-weight pt-3 w-100">22 q</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹48</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/105159a.jpg?ts=1688443502"
+                        alt="Orbit Spearmint Flavour Sugar Free Chewing Gum" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Nicotex Mint Nicotine</div>
+                    <div class="my-card-weight pt-3 w-100">25 Pieces</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹284</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/495587a.jpg?ts=1680680930"
+                        alt="Center Fruit Liquid Filled Pineapple Chewing Gum (Tennis Ball Shape)" width="140"
+                        height="140" loading="lazy" style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Center Fruit Liquid</div>
+                    <div class="my-card-weight pt-3 w-100">67.2 g</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹45</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/368388a.jpg?ts=1690813231"
+                        alt="Mentos Pure Fresh Mint Chewing Gum" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Mentos Pure Fresh Mint</div>
+                    <div class="my-card-weight pt-3 w-100">54.6 g</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹85</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/495586a.jpg?ts=1690813422"
+                        alt="Center Fresh Sugar Free Mint Candy" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Center Fresh Sugar Free</div>
+                    <div class="my-card-weight pt-3 w-100">35 g</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹85</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+                <div class="card p-3 shadow d-inline-block my-card flex-column">
+                    <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=180/app/images/products/sliding_image/440075a.jpg?ts=1688471561"
+                        alt="Wrigley's Doublemint Peppermint Candy" width="140" height="140" loading="lazy"
+                        style="border-radius: 0px; object-fit: fill; cursor: default;">
+                    <div class="my-card-time"><i class="fa-solid fa-stopwatch stopwatch"></i>12 MINS</div>
+                    <div class="my-card-title">Wrigely's Doublemint</div>
+                    <div class="my-card-weight pt-3 w-100">30 g</div>
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div class="my-price"><span class="mrp">₹50</span></div>
+                        <button class="btn btn-outline-success px-4 my-button">ADD</button>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+      <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+     
+</body>
+</html>

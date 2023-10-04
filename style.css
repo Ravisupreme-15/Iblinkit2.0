@@ -117,12 +117,12 @@ nav{
 
 .my-card
 {
-    width: 220px;
+    width: 220px; 
     box-sizing: border-box;
     border-radius: 15px !important;
-     white-space: wrap; 
-     display: inline-block !important;
-     margin-inline: 10px;
+    white-space: wrap; 
+    display: inline-block !important;
+    margin-inline: 10px;
 }
 
 
@@ -189,7 +189,6 @@ button.add:hover{
 .zig-zag{
     position: relative;
     bottom:-13px;
-    
     font-size: 16px;
     color:#528cee !important;
     text-align: center;
@@ -329,6 +328,63 @@ td:hover{
      font-style: oblique;
      text-decoration:solid;
      cursor: pointer;
+}
+
+
+.mode-change{
+
+    width:30px;
+    height:30px;
+    background-color: black;
+    position: fixed;
+    right:10px;
+    top: 20px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    padding-top: 4px;
+   
+
+}
+
+
+
+body.dark-mode {
+   background-color:black;
+   color: #fff;
+}
+
+.dark-mode .btn {
+   background-color: #555;
+   color: #fff;
+}
+
+.dark-mode .card-text{
+
+    color: black;
+}
+
+.dark-mode #hero-section{
+
+    background-color: #1f1f1f;
+}
+
+.dark-mode .card{
+
+    background-color: #1f1f1f;
+}
+.time{
+    margin-top: 2px;
+}
+.dark-mode .time{
+
+    background-color: #666666;
+}
+
+.dark-mode .card-text{
+
+    color: black;
+    margin-top: 2px;
 }
 
 

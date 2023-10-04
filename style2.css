@@ -1,0 +1,118 @@
+
+.my-categories {
+    width: 85%;
+    margin: auto;
+}
+
+.my-list {
+    white-space: nowrap !important;
+}
+
+.my-list>img {
+    padding: 10px;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+.my-card {
+    width: 179px !important;
+    margin-inline: 10px;
+}
+
+.my-card-time {
+    width: fit-content;
+    margin-top: 3px;
+    border-radius: 4px;
+    padding: 0px 4px;
+    background-color: rgb(248, 248, 248);
+    align-items: center;
+    font-weight: 700;
+    font-size: 9px;
+    color: rgb(54, 54, 54) ;
+}
+
+.dark-mode .my-card-time{
+
+    background-color: #555;
+    color: black;
+}
+
+.stopwatch {
+    padding-right: 4px !important;
+}
+
+.my-price {
+    margin-left: 10px !important;
+}
+
+.my-card-title {
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.my-price {
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 11px;
+}
+.dark-mode .card{
+
+    background-color: #1f1f1f;
+}
+
+
+.my-card-weight {
+    color: #666666;
+    font-size: 13px;
+}
+
+.mrp {
+    color: #666666;
+    font-size: 12px;
+}
+
+
+.my-categories-row {
+    width: 100%;
+    overflow-x: scroll;
+}
+
+
+.mode-change{
+
+     width:30px;
+     height:30px;
+     background-color: black;
+     position: fixed;
+     right:10px;
+     top: 20px;
+     border-radius: 50%;
+     text-align: center;
+     color: white;
+     padding-top: 4px;
+
+
+}
+
+
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode .btn-theme {
+    background-color: #555;
+    color: #fff;
+}
+
+
+
+

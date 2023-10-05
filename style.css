@@ -71,8 +71,7 @@ nav{
 
     display: flex;
     flex-wrap: wrap;
-    padding-inline:5vw;
-
+    padding-inline:4.5vw;
     justify-content: space-around;
 
 }
@@ -82,6 +81,8 @@ nav{
 
     white-space:nowrap;
 } */
+
+
 
 
 .scroll-container{
